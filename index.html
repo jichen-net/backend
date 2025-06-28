@@ -1,10 +1,13 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Upload Backend</title>
+    <title>Upload File</title>
 </head>
 <body>
-  <h1>Hello from Flask!</h1>
+    <h1>Upload File</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
 </body>
 </html>
