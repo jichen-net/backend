@@ -1,0 +1,11 @@
+
+services:
+  - type: web
+    name: upload-backend
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    plan: free
+    region: oregon
+    branch: main
+    autoDeploy: true
